@@ -1,0 +1,168 @@
+:root{
+    --primary-color: #1E90FF;
+    --secondary-color: #707070;
+    --accent-color: #000000;
+    --add-to-cart-color: #32CD32;
+}
+
+.mine__socials.contact_page_socials{
+    gap: 1rem;
+    /* margin-right: 6rem; */
+}
+
+
+/* bootstrap icons */
+.mine__bi {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+main{
+    background: none;
+    /* border: 1px solid black; */
+}
+
+main{
+    /* justify-content: space-around; */
+    /* gap: 2rem; */
+    /* align-items: start; */
+    /* gap: 10rem; */
+    /* gap: 5rem; */
+    justify-content: space-around;
+}
+
+main>div.infos{
+    /* border: 1px solid var(--primary-color); */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 5rem;
+
+    /* font-size: 1.7rem; */
+    justify-content: space-around;
+}
+
+.mine__gap_1{
+    gap: 1rem;
+}
+
+div.form>h3.title{
+    margin-bottom: 1rem;
+}
+
+h3.title{
+    font-size: 1.7rem;
+}
+
+h4.adresse{
+    color: var(--secondary-color);
+    line-break: strict;
+    font-size: 1.25rem;
+    /* font-size: ; */
+    /* border: 1px solid black; */
+    width: 23ch;
+}
+
+h6{
+    color: var(--secondary-color);
+    font-size: 0.75rem;
+}
+
+
+
+
+
+div.form{
+    /* gap: 0.5rem; */
+    /* border: 1px solid black; */
+    width: calc(40%);
+}
+
+form.form{
+    gap: 1rem;
+}
+
+
+.mine__input{
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+
+    /* cursor: pointer; */
+}
+
+
+.mine__input_name{
+    /* overflow: hidden; */
+    position: relative;
+
+}
+
+.mine__input_name::placeholder{
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+
+
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+.mine__input_email{
+    /* overflow: hidden; */
+    position: relative;
+
+}
+
+.mine__input_email::placeholder{
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+
+    
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.mine__input_message{
+    /* overflow: hidden; */
+    height: 5rem;
+    position: relative;
+}
+
+.mine__input_message::placeholder{
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+
+    
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+/* .mine__input_message:focus::placeholder
+,.mine__input_message:not(:placeholder-shown)::placeholder
+{
+    top: 1rem;
+    transform: translateY(-1rem);
+    transition: transform 0.3s ease;
+} */
+
+
+
+
+.mine__btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+
+}
+

@@ -1,0 +1,130 @@
+:root{
+    --primary-color: #1E90FF;
+    --secondary-color: #707070;
+    --accent-color: #000000;
+    --add-to-cart-color: #32CD32;
+}
+
+
+/* bootstrap icons */
+/* .mine__bi {
+    width: 1.75rem;
+    height: 1.75rem;
+} */
+
+main{
+    background: none;
+    /* border: 1px solid black; */
+
+    justify-content: space-between;
+}
+
+div.title{
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+
+div.title>h2{
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    font-size: 2rem;
+    color: var(--secondary-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title>h2::before, div.title>h2::after {
+    content: "";
+    width: 80%;
+    height: 0.25rem;
+    display: block;
+    background: var(--secondary-color);
+    text-align: center;
+}
+
+div.title>h2::before{
+    margin-bottom: 0.5rem;
+}
+
+div.title>h2::after{
+    margin-top: 1rem;
+    height: 0.5rem;
+}
+
+
+
+
+/* Testimonials */
+
+div.testimonials{
+    /* border: 5px solid purple; */
+    height: 100%;
+    width: 90%;
+}
+
+.testimonials_content{
+    /* border: 10px solid blue; */
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.mine__nav-btn{
+    cursor: pointer;
+}
+
+.single-testimonial{
+    /* border: 1px solid red; */
+    /* width: 10rem; */
+    /* height: auto; */
+    /* width: 85%; */
+    gap: 1rem;
+    justify-content: space-evenly;
+
+    /* padding: 1rem; */
+}
+
+div.single-testimonial-content{
+    border: 1px solid var(--primary-color);
+    margin: 1rem 0;
+    /* width: ; */
+    /* gap: 0.5rem; */
+
+    height: 20rem;
+    width: 30ch;
+
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 1rem; */
+
+    border-radius: 0.75rem 2.5rem;
+}
+
+
+div.testimonial-header{
+    margin-top: 1rem;
+}
+
+div.testimonial-text{
+    /* width: 1ch; */
+    /* margin: 1rem 0rem; */
+    /* margin: 0 1rem; */
+    font-weight: 600;
+    text-align: justify;
+    padding: 0 1rem 0 1rem;
+
+}
+
+div.testimonial-author{
+    color: var(--secondary-color);
+    align-self: start;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+
+    font-style: italic;
+}

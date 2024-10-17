@@ -1,0 +1,146 @@
+:root{
+    --primary-color: #1E90FF;
+    --secondary-color: #707070;
+    --accent-color: #000000;
+    --add-to-cart-color: #32CD32;
+}
+
+
+/* bootstrap icons */
+/* .mine__bi {
+    width: 1.75rem;
+    height: 1.75rem;
+} */
+
+main{
+    background: none;
+    /* border: 1px solid black; */
+    
+    justify-content: space-between;
+}
+
+div.title{
+    text-transform: uppercase;
+    /* border: 1px solid green; */
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+
+div.title>h2{
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    font-size: 2rem;
+    color: var(--secondary-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title>h2::before, div.title>h2::after {
+    content: "";
+    width: 80%;
+    height: 0.25rem;
+    display: block;
+    background: var(--secondary-color);
+    text-align: center;
+}
+
+div.title>h2::before{
+    margin-bottom: 0.5rem;
+}
+
+div.title>h2::after{
+    margin-top: 1rem;
+    height: 0.5rem;
+}
+
+
+
+/* About */
+
+.about-us{
+    /* border: 1px solid blue; */
+    gap: 4rem;
+
+    border: 1px solid var(--secondary-color);
+    padding-bottom: 4rem;
+    padding: 0 2rem;
+    margin-bottom: 8rem;
+    
+    min-width: 80dvw;
+    max-width: 80dvh;
+
+    min-height: 60dvh;
+    max-height: 60dvh;
+}
+
+.about-us-nav{
+    /* border: 1px solid red; */
+    gap: 2rem;
+    padding: 1rem 0rem;
+
+    border-bottom: 0.25rem solid var(--secondary-color);
+
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-nav>.active{
+    color: var(--accent-color);
+}
+
+.about-us-nav>li:hover{
+    color: var(--accent-color);
+}
+
+.about-us-content{
+    /* border: 1px solid green; */
+    gap: 1rem;
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.about-us-content-3 span{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.about-us-content-4{
+    gap: 0.25rem !important;
+}
+
+.about-us-content-4 p:last-of-type{
+    margin-top: 1rem;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+
+.ml-3{
+    margin-left: 3rem;
+}
+
+.mine__brand_name_about{
+    font-size: inherit !important;
+}
+
+.mine__btn_about{
+    align-self: center;
+
+    font-size: inherit !important;
+    margin: 1.5rem 0;
+}
+
+.ceo_name{
+    align-self: end;
+    font-family: "French script";
+    font-style: italic;
+}

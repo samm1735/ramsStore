@@ -1,0 +1,277 @@
+:root{
+    --primary-color: #1E90FF;
+    --secondary-color: #707070;
+    --accent-color: #000000;
+    --add-to-cart-color: #32CD32;
+}
+
+
+html{
+    font-family: "Rockwell", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+    
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+/* Helper classes */
+
+.mine__flex{
+    display: flex;
+}
+
+.mine__flex_horizontal{
+    flex-direction: row;   
+}
+
+.mine__flex_vertical{
+    flex-direction: column;
+}
+
+.mine__vertical_text{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg)
+}
+
+.mine__uppercase{
+    text-transform: uppercase;
+} 
+
+.mine__quote{
+    font-style: italic;
+}
+
+.mine__underlined{
+    text-decoration: underline;
+}
+
+/* Header */
+
+.header{
+    /* border: 1px solid black; */
+    text-align: center;
+    /* padding: 1rem 0; */
+}
+
+.header_nav{
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2rem;
+}
+
+.mine__brand_name{
+    color: var(--primary-color);
+
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.mine__socials{
+    gap: 2rem;
+    margin-right: 6rem;
+}
+
+/* bootstrap icons */
+.bi{
+    width: 3rem;
+    height: 3rem;
+}
+
+.bi-facebook{
+    color: #1877F2;
+}
+
+.bi-x{
+    color: #000000;
+}
+
+.bi-whatsapp{
+    color: #25d366;
+}
+
+
+
+/* hr */
+
+hr{
+    height: 0.25rem;
+    background-color: var(--secondary-color);
+}
+
+
+/* Aside */
+
+aside{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.aside_nav{
+    gap: 1.5rem;
+}
+
+.aside_nav>li{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    /* transition: text-decoration 0.6s ease-in-out; */
+}
+
+.aside_nav>li.active{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.active{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.aside_nav>li:hover{
+    color: var(--primary-color);
+    /* text-decoration: underline; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Main */
+
+.mine__main_section{
+    justify-content: space-between;
+    margin-right: 8rem;
+}
+
+
+main{
+    /* border: 1px solid black; */
+    
+    margin-top: 1rem;
+    height: 75dvh;
+    width: 80dvw;
+
+    background: url("../images/hero_img.jpg");
+    background-size: cover;
+    background-position: center top -147px;
+
+    border-radius: 1.25rem;
+
+    justify-content: center;
+    align-items: center;
+
+    /* gap: 1rem; */
+}
+
+main>div{
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 1rem 0.5rem;
+}
+
+main>div>span{
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+main>div.main_text>span{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+main>div.main_text{
+    margin-bottom: 2rem;
+}
+
+
+/* main>div:nth-child(1){
+    position: relative;
+}
+
+main>div:nth-child(2){
+    position: absolute;
+    top: 10px;
+    top: 20.5rem;
+} */
+
+
+.mine__btn{
+    background-color: var(--primary-color);
+    color: white;
+
+    font-size: 2rem;
+
+    padding: 1.5rem 4rem;
+
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    font-weight: 600;
+}
+
+.mine__btn:hover{
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+footer>nav>a{
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+footer>nav>a:hover{
+    color: var(--primary-color);
+    /* text-decoration: underline; */
+}
